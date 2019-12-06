@@ -34,4 +34,4 @@ def my_form_post():
     return redirect(url_for('show_index',select_key=select_key))
 
 if __name__ == "__main__":
-    app.run()
+    app.run(port=8080)
